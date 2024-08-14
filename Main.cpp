@@ -22,11 +22,11 @@ signed main(){
 	
 	cin >> l >> r >> s;
 	
-	freopen("data.txt","r",stdin);
-	int t;
-	cin >> t;
+	//freopen("data.txt","r",stdin);
+	//int t;
+	//cin >> t;
 	
-	s = to_string(t + 1) + "." + s;
+	//s = to_string(t + 1) + "." + s;
 	
 	system(("md " + s).c_str());
 	
@@ -37,6 +37,6 @@ signed main(){
 		cerr << "Create test number " << i << " successfull!\n";
 	}	
 	
-	freopen("data.txt","w",stdout);
-	cout << t + 1;
+	//freopen("data.txt","w",stdout);
+	//cout << t + 1;
 }
